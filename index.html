@@ -3,9 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <title>Rodrigo Ochoa Hernández</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f4f4f9;
+    }
+    .container {
+      text-align: center;
+      background: white;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    h1 {
+      margin-bottom: 10px;
+      font-size: 2.2rem;
+      color: #222;
+    }
+    p {
+      margin: 5px 0;
+      color: #555;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #0073e6;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    a.button:hover {
+      background: #005bb5;
+    }
+  </style>
 </head>
 <body>
-  <h1>Rodrigo Ochoa Hernández</h1>
-  <p><a href="cv.pdf" target="_blank">📄 Ver mi CV</a></p>
+  <div class="container">
+    <h1>Rodrigo Ochoa Hernández</h1>
+    <p>Lic. en Economía — UNAM</p>
+    <p>
+      <a href="mailto:rodrigoochoahe@gmail.com">rodrigoochoahe@gmail.com</a><br>
+      <a href="https://www.linkedin.com/in/rodrigo-ochoa-hern%C3%A1ndez-489479314/" target="_blank">LinkedIn</a>
+    </p>
+    <a class="button" href="cv.pdf" target="_blank">📄 Ver mi CV</a>
+  </div>
 </body>
 </html>
